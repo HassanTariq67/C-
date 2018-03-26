@@ -1,0 +1,5 @@
+The brands for jeans are:
+
+    1.levis
+    2.gucci
+    3.denim

@@ -1,0 +1,11 @@
+Levis articles are:
+
+Item ID    Waist    collar	Color		Stuff          Price
+
+ 012 	    32"       N/A 	 blue  	    straightnarrow     1100
+ 013 	    34"       N/A        black       narrowbottom      1500  
+ 014	    34"	      N/A	 black	        funky           1700
+ 015 	    36"       N/A 	 blue  	    straightnarrow     1100 
+ 016 	    38"       N/A	 blue  	     narrowbottom      1500  
+ 017 	    34"       N/A	 blue  	     narrowbottom      1500 
+		

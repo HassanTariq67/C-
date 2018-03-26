@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D86675BE-49E4-4814-AB50-1C4CBAEC3F50}</ProjectGuid>
+    <RootNamespace>MS</RootNamespace>
+    <ProjectName>SMS</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AddToCart.h" />
+    <ClInclude Include="Brands.h" />
+    <ClInclude Include="Choice.h" />
+    <ClInclude Include="Dandy.h" />
+    <ClInclude Include="Denim.h" />
+    <ClInclude Include="Gender.h" />
+    <ClInclude Include="Gucci.h" />
+    <ClInclude Include="GulAhmed.h" />
+    <ClInclude Include="Jeans.h" />
+    <ClInclude Include="Jeep.h" />
+    <ClInclude Include="Kayseria.h" />
+    <ClInclude Include="Kids.h" />
+    <ClInclude Include="Levis.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="Men.h" />
+    <ClInclude Include="NewArrival.h" />
+    <ClInclude Include="Nishat.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="Outfitters.h" />
+    <ClInclude Include="Quality.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="ShalwarQameez.h" />
+    <ClInclude Include="Shawl.h" />
+    <ClInclude Include="ShippingCharges.h" />
+    <ClInclude Include="Shirts.h" />
+    <ClInclude Include="Women.h" />
+    <ClInclude Include="Zara.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddToCart.cpp" />
+    <ClCompile Include="Brands.cpp" />
+    <ClCompile Include="Choice.cpp" />
+    <ClCompile Include="Dandy.cpp" />
+    <ClCompile Include="Denim.cpp" />
+    <ClCompile Include="Gender.cpp" />
+    <ClCompile Include="Gucci.cpp" />
+    <ClCompile Include="GulAhmed.cpp" />
+    <ClCompile Include="Jeans.cpp" />
+    <ClCompile Include="Jeep.cpp" />
+    <ClCompile Include="Kayseria.cpp" />
+    <ClCompile Include="Kids.cpp" />
+    <ClCompile Include="Levis.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Men.cpp" />
+    <ClCompile Include="NewArrival.cpp" />
+    <ClCompile Include="Nishat.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Outfitters.cpp" />
+    <ClCompile Include="Quality.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="ShalwarQameez.cpp" />
+    <ClCompile Include="Shawl.cpp" />
+    <ClCompile Include="ShippingCharges.cpp" />
+    <ClCompile Include="Shirts.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Women.cpp" />
+    <ClCompile Include="Zara.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

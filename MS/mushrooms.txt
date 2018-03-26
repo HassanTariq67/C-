@@ -1,0 +1,11 @@
+Levis articles are:
+
+Item ID 	Brand		Waist		Color		Stuff
+  ...           .....           .....           .....           .....
+  012 		levis 		 32"  		 blue  	    straight narrow
+  013 		levis		 34"             black       narrow bottom
+  014		levis		 34"		 black	        funky
+  015 		levis 		 36"  		 blue  	    straight narrow
+  016 		levis 		 38"  		 blue  	     narrow bottom
+  017 		levis 		 34"  		 blue  	     narrow bottom
+		

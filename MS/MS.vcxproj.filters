@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Men.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Women.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddToCart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShippingCharges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewArrival.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jeans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shirts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Levis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Choice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gucci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Denim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShalwarQameez.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shawl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nishat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zara.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kayseria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GulAhmed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Outfitters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dandy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jeep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Men.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Women.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quality.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddToCart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShippingCharges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewArrival.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jeans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shirts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Levis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Choice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gucci.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Denim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShalwarQameez.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shawl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nishat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zara.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kayseria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GulAhmed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Outfitters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dandy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jeep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
